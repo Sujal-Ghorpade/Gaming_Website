@@ -16,7 +16,7 @@ app.listen(port, () => {
   console.log(`App is listening on port ${port}`);
 });
 
-app.get("/games", (req, res) => {
+app.get("https://gaming-website-xuud.onrender.com/games", (req, res) => {
   res.render("allGames.ejs");
 });
 
